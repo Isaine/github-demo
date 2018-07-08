@@ -10,3 +10,8 @@ Sample website with plenty of files for demos
 
 This new section
 
+## Step by Step
+
+This step bye step
+
+## This is other section

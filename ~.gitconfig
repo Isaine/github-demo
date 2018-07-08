@@ -3,3 +3,15 @@
 	email = isaneduque@gmail.com
 [core]
 	editor = vim
+[merge]
+    tool = p4merge
+[mergetool]
+    prompt = false
+[mergetool "p4merge"]
+    cmd = p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[diff]
+    tool = p4merge
+[difftool]
+    prompt = false
+[difftool "p4merge"]
+    cmd = p4merge \"$LOCAL\" \"$REMOTE\"
